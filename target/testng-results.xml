@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-22T13:18:04 SGT" name="All Test Suite" finished-at="2022-12-22T13:18:58 SGT" duration-ms="54302">
+    <groups>
+    </groups>
+    <test started-at="2022-12-22T13:18:04 SGT" name="InscaleTestProj" finished-at="2022-12-22T13:18:58 SGT" duration-ms="54302">
+      <class name="Test.Test1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.Test1@13b13b5d]" started-at="2022-12-22T13:18:04 SGT" name="setup" finished-at="2022-12-22T13:18:30 SGT" duration-ms="25533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_one()[pri:0, instance:Test.Test1@13b13b5d]" started-at="2022-12-22T13:18:30 SGT" name="test_one" finished-at="2022-12-22T13:18:46 SGT" duration-ms="16296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_one -->
+        <test-method is-config="true" signature="burnDown()[pri:0, instance:Test.Test1@13b13b5d]" started-at="2022-12-22T13:18:57 SGT" name="burnDown" finished-at="2022-12-22T13:18:58 SGT" duration-ms="906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- burnDown -->
+      </class> <!-- Test.Test1 -->
+      <class name="Test.Test2">
+        <test-method signature="Test_two()[pri:0, instance:Test.Test2@366647c2]" started-at="2022-12-22T13:18:46 SGT" name="Test_two" finished-at="2022-12-22T13:18:57 SGT" duration-ms="11482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_two -->
+      </class> <!-- Test.Test2 -->
+    </test> <!-- InscaleTestProj -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
